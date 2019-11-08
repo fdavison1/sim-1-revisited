@@ -20,3 +20,25 @@
 .App-link {
   color: #09d3ac;
 }
+
+.form {
+  border: solid red;
+}
+
+.dash{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+  /* border: solid black; */
+  justify-content: space-evenly;
+}
+
+.products {
+  border: solid black;
+  min-width: 200px;
+}
+
+img{
+  height: 150px;
+  border: solid yellow;
+}

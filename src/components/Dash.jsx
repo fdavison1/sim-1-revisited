@@ -11,10 +11,17 @@ export default class Dash extends React.Component{
     }
     render(){
         return(
-            <div>
-                Dash.jsx
+            <div className='dash'>
+                {/* Dash.jsx */}
+                
+                <div className="products">
+
                 <Product />
+                </div>
+                <div className="form-space">
+
                 <Form />
+                </div>
             </div>
         )
     }
