@@ -9,7 +9,10 @@ export default class App extends React.Component {
     super()
 
     this.state = {
-
+      inventory : 
+      [{name: 'fred1', img: 'https://shortpixel.com/img/bighead.jpg', price: '$1'},
+      {name: 'fred1', img: 'https://shortpixel.com/img/bighead.jpg', price: '$1'},
+      {name: 'fred1', img: 'https://shortpixel.com/img/bighead.jpg', price: '$1'},]
     }
 
   }
@@ -18,7 +21,9 @@ export default class App extends React.Component {
       <div className="App">
         <Header />
         App.js
-      <Dash />
+      <Dash 
+        inventory = {this.state.inventory}
+          />
       </div>
     );
   }

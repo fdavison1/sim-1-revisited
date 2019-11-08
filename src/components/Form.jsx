@@ -57,13 +57,13 @@ export default class Form extends React.Component{
                 
                 <h2>Product Name:</h2>
                 <input type="text"
-                  onChange={(e)=> this.handleChange1(e)}
+                  onChange={(e)=> this.handleChange2(e)}
                   value={this.state.name}
                 />
                 
                 <h2>Price:</h2>
                 <input type="text"
-                  onChange={(e)=> this.handleChange1(e)}
+                  onChange={(e)=> this.handleChange3(e)}
                   value={this.state.price}
                   />
 

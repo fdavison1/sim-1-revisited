@@ -16,7 +16,21 @@ export default class Dash extends React.Component{
                 
                 <div className="products">
 
-                <Product />
+               
+               
+               
+               {this.props.inventory.map(el => (
+                   <Product />
+                   
+               ))}
+               
+                
+                
+                
+                
+                
+                
+                
                 </div>
                 <div className="form-space">
 

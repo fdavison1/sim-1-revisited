@@ -10,7 +10,12 @@ export default class Product extends React.Component{
     }
     render(){
         return(
-            <div>Product.jsx</div>
+            <div>Product.jsx
+
+
+
+                
+            </div>
         )
     }
 }
